@@ -1,0 +1,51 @@
+
+print("<<<<Read>>>")
+myfilee = open(r"C:\Users\badda\AI_App_Development\ai-python-foundations\day06\HR Mail.txt")
+cont = myfilee.read()
+print(cont)
+myfilee.close()
+
+print("<<<<Read upto N chars>>>")
+my1file = open(r"C:\Users\badda\HR Mail.txt")
+cont = my1file.read(8)
+print(cont)
+my1file.close()
+
+print("<<<<Read oneline at a time>>>")
+my123file = open(r"C:\Users\badda\AI_App_Development\ai-python-foundations\day06\HR Mail.txt")
+lin1 = my123file.readline()
+print(lin1)
+my123file.close()
+
+
+print("<<<<Read all line in a list of strings>>>")
+my123file = open(r"C:\Users\badda\AI_App_Development\ai-python-foundations\day06\HR Mail.txt")
+all_lines = my123file.readlines()
+print(all_lines)
+my123file.close()
+
+print("<<<<Write content to file>>>")
+my_file = open(r"C:\Users\badda\AI_App_Development\ai-python-foundations\day06\HR Mail.txt", 'w')
+my_file.write('Hi mahesh, how are you?\n')
+my_file.write('i am doing good.\n')
+my_file.write('lets meet this sunday!!!')
+my_file.close()
+
+print("<<<<Read>>>")
+myfilee = open(r"C:\Users\badda\AI_App_Development\ai-python-foundations\day06\HR Mail.txt")
+cont = myfilee.read()
+print(cont)
+myfilee.close()
+
+print("<<<<append content to file>>>")
+my_file1234 = open(r"C:\Users\badda\AI_App_Development\ai-python-foundations\day06\HR Mail.txt", 'a')
+my_file1234.write('Hi mahesh, how are you?\n')
+my_file1234.write('i am doing good.\n')
+my_file1234.write('lets meet this sunday!!!')
+my_file1234.close()
+
+print("<<<<Read>>>")
+myfilee = open(r"C:\Users\badda\AI_App_Development\ai-python-foundations\day06\HR Mail.txt")
+cont = myfilee.read()
+print(cont)
+myfilee.close()
